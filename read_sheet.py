@@ -5,10 +5,10 @@ from oauth2client import file, client, tools
 import pandas as pd
 
 
-# SPREADSHEET_ID = # <Your spreadsheet ID>
-SPREADSHEET_ID = '1E69oO_2PJauwpz38ulBdwBZReK8AnVJPSTtZRxy62Zc'
-# RANGE_NAME = # <Your worksheet name>
-RANGE_NAME = 'asset_sub_skill_mapping'
+SPREADSHEET_ID = # <Your spreadsheet ID>
+
+RANGE_NAME = # <Your worksheet name>
+
 
 def get_google_sheet(spreadsheet_id, range_name):
     """ Retrieve sheet data using OAuth credentials and Google Python API. """
